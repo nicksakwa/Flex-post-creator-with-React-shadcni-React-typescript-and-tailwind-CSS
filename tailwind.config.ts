@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'post': {
+					DEFAULT: 'hsl(var(--post-bg))',
+					border: 'hsl(var(--post-border))',
+					'accent-pink': 'hsl(var(--post-accent-pink))',
+					'accent-blue': 'hsl(var(--post-accent-blue))',
+					'accent-cyan': 'hsl(var(--post-accent-cyan))',
+					'text-primary': 'hsl(var(--post-text-primary))',
+					'text-secondary': 'hsl(var(--post-text-secondary))',
+					'text-muted': 'hsl(var(--post-text-muted))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -89,6 +99,14 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			backgroundImage: {
+				'gradient-social': 'var(--gradient-social)',
+				'gradient-accent': 'var(--gradient-accent)'
+			},
+			boxShadow: {
+				'post': 'var(--shadow-post)',
+				'glow': 'var(--shadow-glow)'
 			}
 		}
 	},

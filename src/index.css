@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 13% 9%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 224 16% 12%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 224 16% 12%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 200 100% 70%;
+    --primary-foreground: 220 13% 9%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 224 16% 16%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 224 16% 16%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 320 100% 70%;
+    --accent-foreground: 220 13% 9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 224 16% 20%;
+    --input: 224 16% 16%;
+    --ring: 200 100% 70%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Social Post Design Tokens */
+    --post-bg: 224 16% 12%;
+    --post-border: 224 16% 20%;
+    --post-accent-pink: 320 100% 70%;
+    --post-accent-blue: 200 100% 70%;
+    --post-accent-cyan: 180 100% 70%;
+    --post-text-primary: 210 40% 98%;
+    --post-text-secondary: 215 20% 65%;
+    --post-text-muted: 215 15% 50%;
+
+    /* Gradients */
+    --gradient-social: linear-gradient(135deg, hsl(320 100% 70% / 0.1), hsl(200 100% 70% / 0.1));
+    --gradient-accent: linear-gradient(90deg, hsl(320 100% 70%), hsl(200 100% 70%));
+
+    /* Shadows */
+    --shadow-post: 0 10px 30px -5px hsl(220 13% 5% / 0.3);
+    --shadow-glow: 0 0 20px hsl(200 100% 70% / 0.2);
 
     --sidebar-background: 0 0% 98%;
 
