@@ -1,4 +1,4 @@
-# Felx post creator with React shadcni, React and tailwind CSS
+# Flex post creator with React shadcni, React and tailwind CSS
 
 ## Project info
 
